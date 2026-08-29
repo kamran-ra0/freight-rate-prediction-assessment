@@ -1,0 +1,14 @@
+{
+    "model_type": "CatBoostRegressor",
+    "configuration": "T4_depth8_regularized",
+    "iterations": 1557,
+    "depth": 8,
+    "learning_rate": 0.025,
+    "l2_leaf_reg": 10.0,
+    "random_strength": 1.0,
+    "loss_function": "MAE",
+    "random_seed": 42,
+    "target_handling": "keep_all",
+    "target": "posted_rate",
+    "feature_set": "B_coordinates_no_market"
+}

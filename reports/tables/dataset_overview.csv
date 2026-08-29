@@ -1,0 +1,5 @@
+dataset,rows,columns,duplicate_rows,total_missing_values,missing_load_id,duplicate_load_id,unique_load_id
+train,48000,14,0,674,0.0,0.0,48000.0
+validation,12000,13,0,414,0.0,0.0,12000.0
+template,12000,2,0,12000,0.0,0.0,12000.0
+december,31,7,0,31,,,

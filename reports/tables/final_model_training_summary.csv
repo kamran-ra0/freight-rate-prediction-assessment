@@ -1,0 +1,2 @@
+model,configuration,feature_set,training_rows,feature_count,categorical_feature_count,iterations,depth,learning_rate,l2_leaf_reg,random_strength,target_handling,training_start_date,training_end_date
+CatBoostRegressor,T4_depth8_regularized,B_coordinates_no_market,48000,38,1,1557,8,0.025,10.0,1.0,keep_all,2025-01-01,2025-10-31

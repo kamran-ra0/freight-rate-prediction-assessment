@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Run logs
+reports/run_logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+~$*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Optional local artifacts
+outputs/
+data/processed/

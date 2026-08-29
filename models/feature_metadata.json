@@ -1,0 +1,50 @@
+{
+    "feature_set": "B_coordinates_no_market",
+    "feature_options": {
+        "include_city_categories": false,
+        "include_market_signals": false
+    },
+    "feature_columns": [
+        "distance",
+        "log_distance",
+        "weight_clean",
+        "weight_missing_flag",
+        "weight_negative_flag",
+        "equipment",
+        "pickup_lat",
+        "pickup_lon",
+        "delivery_lat",
+        "delivery_lon",
+        "latitude_change",
+        "longitude_change",
+        "absolute_latitude_change",
+        "absolute_longitude_change",
+        "route_mid_lat",
+        "route_mid_lon",
+        "haversine_distance",
+        "detour_ratio",
+        "bearing_sin",
+        "bearing_cos",
+        "year",
+        "month",
+        "day_of_month",
+        "day_of_week",
+        "day_of_year",
+        "week_of_year",
+        "quarter",
+        "is_weekend",
+        "is_month_start",
+        "is_month_end",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_year_sin",
+        "day_of_year_cos",
+        "distance_x_weight",
+        "weight_per_1000_miles"
+    ],
+    "categorical_features": [
+        "equipment"
+    ]
+}

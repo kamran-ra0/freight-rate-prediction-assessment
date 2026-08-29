@@ -1,0 +1,4 @@
+fold,train_rows,train_start,train_end,validation_rows,validation_start,validation_end
+fold_1_august,33718,2025-01-01,2025-07-31,4759,2025-08-01,2025-08-31
+fold_2_september,38477,2025-01-01,2025-08-31,4670,2025-09-01,2025-09-30
+fold_3_october,43147,2025-01-01,2025-09-30,4853,2025-10-01,2025-10-31

@@ -1,0 +1,35 @@
+dataset,column,issue,count,severity,note
+train,load_id,missing load_id,0,critical,Every load must have a unique identifier.
+train,load_id,duplicate load_id,0,critical,load_id should uniquely identify each load.
+train,distance,missing distance,0,high,Distance is a core freight-rate predictor.
+train,distance,non-positive distance,0,critical,Freight distance must be positive.
+train,weight,missing weight,300,medium,Missing values require a training-derived imputation rule.
+train,weight,negative weight,292,high,Negative physical freight weight is invalid and may represent a sign-entry error.
+train,weight,zero weight,0,high,Zero freight weight should be investigated.
+train,pickup_lat,coordinate outside valid range,0,critical,Expected range is -90 to 90.
+train,delivery_lat,coordinate outside valid range,0,critical,Expected range is -90 to 90.
+train,pickup_lon,coordinate outside valid range,0,critical,Expected range is -180 to 180.
+train,delivery_lon,coordinate outside valid range,0,critical,Expected range is -180 to 180.
+train,equipment,missing equipment,0,high,Equipment type is a categorical freight-rate predictor.
+train,market_index,missing market_index,374,medium,Missing values must be handled without using final validation statistics.
+train,market_index,non-positive market_index,0,medium,Non-positive values should be inspected for validity.
+train,quote_signal,missing quote_signal,0,medium,Missing values should be audited.
+train,quote_signal,non-positive quote_signal,0,medium,Non-positive values should be inspected.
+validation,load_id,missing load_id,0,critical,Every load must have a unique identifier.
+validation,load_id,duplicate load_id,0,critical,load_id should uniquely identify each load.
+validation,distance,missing distance,0,high,Distance is a core freight-rate predictor.
+validation,distance,non-positive distance,0,critical,Freight distance must be positive.
+validation,weight,missing weight,165,medium,Missing values require a training-derived imputation rule.
+validation,weight,negative weight,145,high,Negative physical freight weight is invalid and may represent a sign-entry error.
+validation,weight,zero weight,0,high,Zero freight weight should be investigated.
+validation,pickup_lat,coordinate outside valid range,0,critical,Expected range is -90 to 90.
+validation,delivery_lat,coordinate outside valid range,0,critical,Expected range is -90 to 90.
+validation,pickup_lon,coordinate outside valid range,0,critical,Expected range is -180 to 180.
+validation,delivery_lon,coordinate outside valid range,0,critical,Expected range is -180 to 180.
+validation,equipment,missing equipment,0,high,Equipment type is a categorical freight-rate predictor.
+validation,market_index,missing market_index,249,medium,Missing values must be handled without using final validation statistics.
+validation,market_index,non-positive market_index,0,medium,Non-positive values should be inspected for validity.
+validation,quote_signal,missing quote_signal,0,medium,Missing values should be audited.
+validation,quote_signal,non-positive quote_signal,0,medium,Non-positive values should be inspected.
+train,posted_rate,missing posted_rate,0,critical,The supervised-learning target cannot be missing.
+train,posted_rate,non-positive posted_rate,0,critical,Freight rate should be positive.

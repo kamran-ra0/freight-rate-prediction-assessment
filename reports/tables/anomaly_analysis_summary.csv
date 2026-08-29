@@ -1,0 +1,8 @@
+anomaly,count
+negative_weight_train,292
+missing_weight_train,300
+missing_market_index_train,374
+posted_rate_iqr_flag,260
+rate_per_mile_iqr_flag,1634
+two_or_more_flags,211
+three_or_more_flags,5
